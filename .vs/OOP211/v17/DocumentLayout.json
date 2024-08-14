@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\chris\\source\\repos\\OOP211\\",
+  "WorkspaceRootPath": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\users\\chris\\source\\repos\\oop211\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\github\\oop_final\\oop_maui_sql\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\users\\chris\\source\\repos\\oop211\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\users\\chris\\source\\repos\\oop211\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\users\\chris\\source\\repos\\oop211\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\users\\chris\\source\\repos\\oop211\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\github\\oop_final\\oop_maui_sql\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\users\\chris\\source\\repos\\oop211\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\users\\chris\\source\\repos\\oop211\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\github\\oop_final\\oop_maui_sql\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\users\\chris\\source\\repos\\oop211\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\github\\oop_final\\oop_maui_sql\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\github\\oop_final\\oop_maui_sql\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\github\\oop_final\\oop_maui_sql\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\github\\oop_final\\oop_maui_sql\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|c:\\github\\oop_final\\oop_maui_sql\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{34DFD5C8-B099-4DCF-BEF7-76EF75566379}|OOP211.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -46,107 +46,100 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\OOP211\\Components\\Routes.razor",
+              "DocumentMoniker": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\chris\\source\\repos\\OOP211\\Components\\Routes.razor",
+              "ToolTip": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\Components\\Routes.razor",
               "RelativeToolTip": "Components\\Routes.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T22:05:24.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T22:05:24.521Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\OOP211\\Components\\Layout\\MainLayout.razor",
+              "DocumentMoniker": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\chris\\source\\repos\\OOP211\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T22:00:26.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T22:00:26.544Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\OOP211\\Components\\Pages\\Home.razor",
+              "DocumentMoniker": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\chris\\source\\repos\\OOP211\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAkwKgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-13T15:47:41.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\OOP211\\Components\\_Imports.razor",
+              "DocumentMoniker": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\chris\\source\\repos\\OOP211\\Components\\_Imports.razor",
+              "ToolTip": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\Components\\_Imports.razor",
               "RelativeToolTip": "Components\\_Imports.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T22:28:18.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T22:28:18.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\OOP211\\App.xaml",
+              "DocumentMoniker": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\chris\\source\\repos\\OOP211\\App.xaml",
+              "ToolTip": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "ViewState": "AQIAAAEAAAAAAAAAAAAkwBkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-13T21:53:34.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T21:53:34.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T16:34:19.111Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\OOP211\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\chris\\source\\repos\\OOP211\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T16:34:19.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\OOP211\\Components\\Layout\\NavMenu.razor",
+              "DocumentMoniker": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\chris\\source\\repos\\OOP211\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T15:53:47.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T15:53:47.188Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\OOP211\\MainPage.xaml",
+              "DocumentMoniker": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\chris\\source\\repos\\OOP211\\MainPage.xaml",
+              "ToolTip": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-13T16:24:54.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T16:24:54.419Z"
             }
           ]
         }

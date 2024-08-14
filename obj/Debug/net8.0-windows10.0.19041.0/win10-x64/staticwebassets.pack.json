@@ -1,6 +1,34 @@
 {
   "Files": [
     {
+      "Id": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\OOP211.styles.css",
+      "PackagePath": "staticwebassets\\OOP211.styles.css"
+    },
+    {
+      "Id": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\wwwroot\\smiley.png",
+      "PackagePath": "staticwebassets\\smiley.png"
+    },
+    {
       "Id": "C:\\Users\\chris\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
     },
@@ -175,34 +203,6 @@
     {
       "Id": "C:\\Users\\chris\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\chris\\source\\repos\\OOP211\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\OOP211.styles.css",
-      "PackagePath": "staticwebassets\\OOP211.styles.css"
-    },
-    {
-      "Id": "C:\\Users\\chris\\source\\repos\\OOP211\\wwwroot\\css\\app.css",
-      "PackagePath": "staticwebassets\\css\\app.css"
-    },
-    {
-      "Id": "C:\\Users\\chris\\source\\repos\\OOP211\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\chris\\source\\repos\\OOP211\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\chris\\source\\repos\\OOP211\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
-    },
-    {
-      "Id": "C:\\Users\\chris\\source\\repos\\OOP211\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
-    },
-    {
-      "Id": "C:\\Users\\chris\\source\\repos\\OOP211\\wwwroot\\smiley.png",
-      "PackagePath": "staticwebassets\\smiley.png"
     },
     {
       "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.OOP211.Microsoft.AspNetCore.StaticWebAssets.props",

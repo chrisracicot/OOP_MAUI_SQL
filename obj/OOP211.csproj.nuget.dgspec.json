@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\source\\repos\\OOP211\\OOP211.csproj": {}
+    "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\OOP211.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\source\\repos\\OOP211\\OOP211.csproj": {
+    "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\OOP211.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\source\\repos\\OOP211\\OOP211.csproj",
+        "projectUniqueName": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\OOP211.csproj",
         "projectName": "OOP211",
-        "projectPath": "C:\\Users\\chris\\source\\repos\\OOP211\\OOP211.csproj",
+        "projectPath": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\OOP211.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\source\\repos\\OOP211\\obj\\",
+        "outputPath": "C:\\GitHub\\OOP_final\\OOP_MAUI_SQL\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

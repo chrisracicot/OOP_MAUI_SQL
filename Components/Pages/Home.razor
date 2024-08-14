@@ -67,6 +67,8 @@
     private string _popupMessage;
     private MySqlConnection _connection;
 
+    // This method is called when the component is initialized.
+    // It establishes a connection to the MariaDB database.
     protected override void OnInitialized()
     {
         base.OnInitialized();
@@ -85,6 +87,8 @@
         }
     }
 
+    // This method retrieves and displays the link associated with LinkID = 1
+    // (typically the GitHub resume link) in a popup.
     private void ShowSoftPopup()
     {
         _popupTitle = "GOOD CHOICE!";
@@ -100,6 +104,8 @@
         _dialogOpen = true;
     }
 
+    // This method retrieves and displays the link associated with LinkID = 2
+    // (typically the ChatGPT link) in a popup.
     private void ShowCoderPopup()
     {
         _popupTitle = "BAD CHOICE!";
@@ -115,6 +121,8 @@
         _dialogOpen = true;
     }
 
+    // This method retrieves a link from the database based on the provided LinkID.
+    // It returns the link as a string.
     private string GetLinkFromDatabase(int linkID)
     {
         string link = string.Empty;
@@ -140,6 +148,8 @@
         return link;
     }
 
+    // This method checks the state of the database connection and
+    // displays a message indicating whether it is open and active.
     private void VerifyDatabaseConnection()
     {
         if (_connection != null && _connection.State == System.Data.ConnectionState.Open)
@@ -155,6 +165,8 @@
         _dialogOpen = true;
     }
 
+    // This method closes the database connection and displays a message
+    // indicating that the connection has been closed.
     private void ExitApplication()
     {
         if (_connection != null && _connection.State == System.Data.ConnectionState.Open)
@@ -171,11 +183,14 @@
         _dialogOpen = true;
     }
 
+    // This method closes the currently open popup dialog.
     private void ClosePopup()
     {
         _dialogOpen = false;
     }
 
+    // This method ensures that the database connection is properly closed
+    // and disposed of when the component is destroyed.
     public void Dispose()
     {
         if (_connection != null && _connection.State == System.Data.ConnectionState.Open)

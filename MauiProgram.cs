@@ -1,12 +1,22 @@
 ﻿using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Components.WebView.Maui;
 
+
+
+// Final Project: Interactive Resume Application built with MAUI Blazor Hybrid 
+// For Mehdi Shokrani, CPRG 211
+// By: Christin Racicot, 000932597
+
+
+
 namespace OOP211
 {
     public static class MauiProgram
     {
+        // This method creates and configures the MauiApp instance and initializes the Maui builder.
         public static MauiApp CreateMauiApp()
         {
+
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
