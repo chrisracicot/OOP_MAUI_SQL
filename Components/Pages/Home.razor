@@ -1,0 +1,187 @@
+﻿@page "/"
+@using MySqlConnector
+
+<h1 class="text-center" style="color: #000000; font-family: Inria, sans-serif; font-weight: bold;">
+    HELLO WORLD!
+</h1>
+<hr class="mx-auto" style="border-color: #000000; width: 50%;" />
+
+<div class="text-center" style="font-family: Inria, sans-serif; font-weight: 600; font-size: 24px;">
+    <div class="mb-2">My name is Christin Racicot</div>
+    <div class="mb-4">and I am offering my services as a programmer.</div>
+    <div class="mb-2">Would you like to hire a</div>
+    <div class="mb-5">Software Developer or a Coder?</div>
+</div>
+
+<div class="d-flex justify-content-center gap-3">
+    <!-- Software Developer Button -->
+    <button @onclick="ShowSoftPopup" class="btn btn-success btn-lg">
+        Software Developer
+    </button>
+
+    <!-- Coder Button -->
+    <button @onclick="ShowCoderPopup" class="btn btn-danger btn-lg">
+        Coder
+    </button>
+</div>
+
+<div class="d-flex justify-content-center gap-3 mt-3">
+    <!-- Verify Database Connection Button -->
+    <button @onclick="VerifyDatabaseConnection" class="btn btn-info btn-lg">
+        Verify Database Connection
+    </button>
+</div>
+
+<div class="d-flex justify-content-center gap-3 mt-3">
+    <!-- Exit Button -->
+    <button @onclick="ExitApplication" class="btn btn-warning btn-lg">
+        Exit
+    </button>
+</div>
+
+@if (_dialogOpen)
+{
+    <!-- Modal (Bootstrap) -->
+    <div class="modal d-block" tabindex="-1" style="display: block;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center w-100">@_popupTitle</h5>
+                    <button type="button" class="btn-close" @onclick="ClosePopup"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>@((MarkupString)_popupMessage)</p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-primary" @onclick="ClosePopup">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-backdrop fade show"></div>
+}
+
+@code {
+    private bool _dialogOpen;
+    private string _popupTitle;
+    private string _popupMessage;
+    private MySqlConnection _connection;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        // Initialize the MySQL connection
+        _connection = new MySqlConnection("Server=127.0.0.1;Database=oopf;User=root;Password=OOP2@;");
+
+        try
+        {
+            _connection.Open();
+            Console.WriteLine("Connection to MariaDB opened successfully.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while connecting to MariaDB: {ex.Message}");
+        }
+    }
+
+    private void ShowSoftPopup()
+    {
+        _popupTitle = "GOOD CHOICE!";
+        string link = GetLinkFromDatabase(1); // Get the link for LinkID = 1
+        if (!string.IsNullOrEmpty(link))
+        {
+            _popupMessage = $"Here is a link to my <a href=\"{link}\" target=\"_blank\">GitHub Resume!</a>";
+        }
+        else
+        {
+            _popupMessage = "Link not found.";
+        }
+        _dialogOpen = true;
+    }
+
+    private void ShowCoderPopup()
+    {
+        _popupTitle = "BAD CHOICE!";
+        string link = GetLinkFromDatabase(2); // Get the link for LinkID = 2
+        if (!string.IsNullOrEmpty(link))
+        {
+            _popupMessage = $"Here is a link to <a href=\"{link}\" target=\"_blank\">ChatGPT!</a>";
+        }
+        else
+        {
+            _popupMessage = "Link not found.";
+        }
+        _dialogOpen = true;
+    }
+
+    private string GetLinkFromDatabase(int linkID)
+    {
+        string link = string.Empty;
+        try
+        {
+            using (var command = new MySqlCommand("SELECT Links FROM resume WHERE LinkID = @LinkID", _connection))
+            {
+                command.Parameters.AddWithValue("@LinkID", linkID);
+
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        link = reader["Links"].ToString();
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while retrieving the link: {ex.Message}");
+        }
+        return link;
+    }
+
+    private void VerifyDatabaseConnection()
+    {
+        if (_connection != null && _connection.State == System.Data.ConnectionState.Open)
+        {
+            _popupTitle = "Connection Status";
+            _popupMessage = "Database connection is open and active.";
+        }
+        else
+        {
+            _popupTitle = "Connection Status";
+            _popupMessage = "Database connection is not open.";
+        }
+        _dialogOpen = true;
+    }
+
+    private void ExitApplication()
+    {
+        if (_connection != null && _connection.State == System.Data.ConnectionState.Open)
+        {
+            _connection.Close();
+            _popupTitle = "Exit";
+            _popupMessage = "Database connection has been closed.";
+        }
+        else
+        {
+            _popupTitle = "Exit";
+            _popupMessage = "Database connection was already closed.";
+        }
+        _dialogOpen = true;
+    }
+
+    private void ClosePopup()
+    {
+        _dialogOpen = false;
+    }
+
+    public void Dispose()
+    {
+        if (_connection != null && _connection.State == System.Data.ConnectionState.Open)
+        {
+            _connection.Close();
+        }
+        _connection?.Dispose();
+    }
+}
